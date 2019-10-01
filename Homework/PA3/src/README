@@ -1,0 +1,49 @@
+Name: Jiazhi Li
+USC NetID: jiazhil 
+USC NetID: 5715388761
+CSCI 455 PA3
+Spring 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Jiazhi Li
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+All code is written by myself.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+All classes compiled correctly.
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+Inside the class MineField, a zero padding minefield is used. I just extend the origin minefield from size of (ROWS,COLUMNS)
+to size of (ROWS+2,COLUMNS+2), which is more convenient for function numAdjacentMines. Respectively, I write a private function 
+named Index_transformation to change the position index from (i,j) to (i+1,j+1) in minefield with zero padding. All of these 
+coordinates transformation is wrapped inside the class MineField. Thus, after we design this class and call this class outside, 
+we do not need to think about it anymore. 
+
+
+
+
+
