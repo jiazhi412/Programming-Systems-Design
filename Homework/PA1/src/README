@@ -1,0 +1,66 @@
+// Name: Jiazhi Li
+// USC NetID: jiazhil 
+// USC ID : 5715388761
+// CS 455 PA1
+// Spring 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Jiazhi Li
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+All code is written by myself.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+All classes compiled correctly.
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+No.
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+1.
+The outside code resources students will be allowed to use in assignments for this class are limited to code written by the course staff for the purposes of helping students in the course, or code from the textbook for this course. But, if I do use any such code not written by you, I must acknowledge my sources in my README file.
+
+2.
+Prob(two heads) = 0.25
+Prob(one head and one tail) = 0.5
+Prob(two tails) = 0.25
+
+The reason is that:
+
+Prob(two heads) = Prob(first toss is head) * Prob(second toss is head) = 0.5 * 0.5 = 0.25
+Prob(one head and one tail) = Prob(first toss is head) * Prob(second toss is tail) + Prob(first toss is tail) * Prob(second toss is head) = 0.5 * 0.5 + 0.5 * 0.5= 0.5
+Prob(two tails) = Prob(first toss is tail) * Prob(second toss is tail) = 0.5 * 0.5 = 0.25
+
+3.
+I think 800 trials are enough.
+
+4.
+2147483647 is the largest value where it still worked correctly.
+2147483648 is the one where it overflowed.
+
+
