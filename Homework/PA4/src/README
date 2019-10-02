@@ -1,0 +1,93 @@
+//Name: Jiazhi Li
+//USC NetID: jiazhil 
+//USC NetID: 5715388761
+//CSCI 455 PA4
+//Spring 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+Jiazhi Li
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+All code are written by myself.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+All classes compiled correctly.
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+Class Word
+ * I design a new class named "Word" to store the letters of one word. Inside the class,
+ * HashMap is used whose key represents the letter from A to Z and value represents 
+ * the number of each letterto store the number for each letter for a word. By this way,
+ * this class implements kind of functions of MultiSet by access the number for
+ * one single letter.
+
+Class WordFinder
+ * This class have a main that's responsible for processing the command-line
+ * argument, and handling any error processing. It will probably also have the
+ * main command loop. Most of the other functionality will be delegated to other
+ * object(s) created in main and their methods. What's more, having getting all 
+ * Anagrams for each subset of the rack, we sort them in this class. 
+ 
+Class Rack
+ * Inside "class Rack", the "class Word" is used to represent the string of the
+ * current rack.
+ 
+Class AnagramDictionary
+ * A dictionary of all anagram sets. Note: the processing is case-sensitive; so
+ * if the dictionary has all lower case words, you will likely want any string
+ * you test to have all lower case letters too, and likewise if the dictionary
+ * words are all upper case. ArrayList<Word> is used to store all words in dictionary 
+ * in "class Word". 
+ 
+Class ScoreTable
+ * A ScoreTable has information about Scrabble scores for scrabble letters and
+ * words. HashMap is used whose key represents the character from A to Z and 
+ * value represents the score of each character corresponding to character.
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+The main procedures of my program are shown as followed:
+
+1. Take an optional command-line argument for the dictionary file name. 
+If that argument is left off, it will use the Scrabble dictionary file sowpods.txt.
+If the dictionary file specified (either explicitly or the default one) does not exist, 
+my program will print an informative error message like that "File is not found! [filename]" and exit.
+
+2. Run in a loop on the console, printing the prompt "Rack? " and reading 
+and processing each rack you enter, until you tell it to exit. 
+
+3. Find all subsets of the corresponding rack.
+
+4. Find all Anagrams for each subset of rack according to AnagramDictionary.
+
+5. Sort all Anagrams in decreasing order by score. For words with the same scrabble score, 
+they may appear in alphabetical order.
+
+6. Print.
+
+
+
+
