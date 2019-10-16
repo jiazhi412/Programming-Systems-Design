@@ -1,6 +1,6 @@
 # Programming-Systems-Design
-# Introduction to Programming Systems Design (USC CSCI455)
-# Run Code:
+
+## Run Code:
     Java:
         javac *.java
         java fileName
@@ -8,7 +8,7 @@
         1. Some provide makefile: make
         2. No makefile: g++ fileName.cpp -o outFileName. Then, ./outFileName
 
-# Lab:
+## Lab:
     1. Using the Vocareum Environment
     2. Java Using objects
     3. Java Implementing classes
@@ -24,7 +24,7 @@
     13. C++ Linked Lists
     14. C strings
 
-# Programming Assignment:
+## Programming Assignment:
     1. Coin Toss Simulation(Java)
     2. Bulgarian Solitaire(Java)
     3. Minesweeper(Java)
